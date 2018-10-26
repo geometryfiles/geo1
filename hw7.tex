@@ -1,0 +1,114 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\R' for the real numbers, `\Z' for the integers, etc.
+
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+%  Here is an easy way to make lines, segments, and rays just type $ \lin{AB}$ for example.
+\newcommand{\lin}[1]{\overleftrightarrow{#1}}
+\newcommand{\seg}[1]{\overline{#1}}
+\newcommand{\ray}[1]{\overrightarrow{#1}}
+
+\setcounter{section}{1}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+
+\newtheorem*{exercise*}{Exercise}
+
+
+
+\title{Math 208 HW 7}
+
+\author{Your name goes here}
+
+
+\date{Due October 30, 2018}
+
+\begin{document}
+	\maketitle
+	
+	%%%%%%%%%   Don't forget to use \newpage to start a new page to make 
+	%%%%%%%%%   proofs/diagrams fit on the same page. 
+	
+	\begin{exercise*}[4.7: 1]
+		Prove that Euclid's Fifth Postulate implies the Euclidean Parallel Postulate (see Theorem 4.7.2), namely assume that  ``If $\ell$ and $\ell'
+		$ are parallel lines and $t$ is a transversal in such a way that the sum of the measures of the two interior angles on one side of $t$ is less than $180^\circ$, then $\ell$ and $\ell'$ intersect on that side of $t$.  Then you should prove that given any line $\ell$ and a point $P$ not on $\ell$ there is exactly one line through $P$ that is parallel to $\ell$.
+	\end{exercise*}
+	
+	\begin{proof} 
+	% % % % Type your proof here!
+			
+	\end{proof}
+	
+
+\vspace{1in}
+
+	
+	\begin{exercise*}[4.7: 6]
+	Prove that the Euclidean Parallel Postulate implies that the angle sum of any triangle is $180^\circ$.  (The second half of Theorem 4.7.4).
+\end{exercise*}
+	
+	\begin{proof} 
+		% % % % Type your proof here!
+		
+	\end{proof}
+
+
+\vspace{1in}
+
+
+\begin{exercise*}[4.8: 5]
+	Prove that every Saccheri quadrilateral has the properties listed in Theorem 4.8.10.  That is, if $\square ABCD$ is a Saccheri quadrilateral with base $\seg{AB}$, then
+	\begin{enumerate}
+		\item the diagonals $\seg{AC}$ and $\seg{BD}$ are congruent,
+		\item the summit angles $\angle BCD$ and $\angle ADC$ are congruent,
+		\item the segment jointing the midpoint of $\seg{AB}$ to the midpoint of $\seg{CD}$ is perpendicular to both $\seg{AB}$ and $\seg{CD}$,
+		\item $\square ABCD$ is a parallelogram,
+		\item $\square ABCD$ is a convex quadrilateral,
+		\item the summit angles $\angle BCD$ and $\angle ADC$ are either right or acute.
+	\end{enumerate}
+\end{exercise*}
+
+\begin{proof} 
+	% % % % Type your proof here!
+	
+\end{proof}
+	
+\vspace{1in}
+
+\begin{exercise*}[4.8:6]
+	Prove the following: If $\ell$ and $m$ are two distinct lines and there exist distinct points $P$ and $Q$ on $m$ such that $d(P,\ell) = d(Q,\ell)$, then either $m$ and $\ell$ intersect at the midpoint on $\seg{PQ}$, or $m \parallel \ell$.
+\end{exercise*}
+
+
+
+
+
+
+\end{document}
